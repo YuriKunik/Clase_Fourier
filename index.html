@@ -89,7 +89,7 @@
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # Clase Fourier
-15/06/11 Matemática II (biología)s
+15/06/11 Matemática II (biología)
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -217,7 +217,7 @@ $$`
 también los podemos escribir como
 
 `$$
-x(t) = \sum_{k=-n}c_{k} e^{2\pi i k t/ T}
+x(t) = \sum^n_{k=-n} c_{k} e^{2\pi i k t/ T}
 $$`
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
@@ -246,8 +246,36 @@ Después de unas cuentitas, llegamos a que si el grado de nuestro polinomio es `
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Calculemos unos ejemplos
-</div></script></section><section  data-markdown><script type="text/template">
-</script></section></div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Uso principal
+
+La clave de Fourier es que nos permite pasar de un espacio temporal a otro de frecuencias. Este cambio nos da información que no teníamos a simple vista sobre nuestra señal. El ejemplo más claro de esto lo encontramos al aplicar Fourier a señales de sonido.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Ballena de 52 Hz
+La ballena de 52 hertz es el único individuo que canta en esta frecuencia. El resto de las ballenas de la misma zona tienen otras frecuencias, por esto se piensa que la ballena 52 es la ballena más solitaria del mundo. Escuchemos un fragmento de su canto en x10 de velocidad y veamos la frecuencia principal.
+[Wikipedia](https://en.wikipedia.org/wiki/52-hertz_whale)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Aplicaciones de Fourier dentro de la biología
+
+Análisis de cantos de ballenas
+- [Clicks de cachalotes](https://pubmed.ncbi.nlm.nih.gov/7560502/)
+- [Detección de ballenas francas con el spectro](https://www.kaggle.com/c/whale-detection-challenge/data)
+- [Más cachalotes](https://drive.google.com/file/d/1f2kKZO5mz-iX_rh-ZVvpwIT6nIUg6U8A/view?usp=sharing)
+
+Este tiene un dataset de un montón de ballenas recopilados para un concurso.
+
+  Biología molecular
+- [Introducción al tema + ejemplos](https://www.stemside.co.uk/post/the-fourier-transform-and-its-application-in-structural-biology-part-one)
+
+Otros animales
+- [Algo sobre perros y +](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1367946/pdf/biophysj00631-0066.pdf)
+</div></script></section></div>
     </div>
 
     <script src="dist/reveal.js"></script>
